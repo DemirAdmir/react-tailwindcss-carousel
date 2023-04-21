@@ -1,11 +1,16 @@
-import { useState } from "react";
+import Carousel from "./assets/components/Carousel ";
 
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <h1>Hello</h1>
+      <div className="w-screen flex justify-center">
+        <Carousel />
+      </div>
+    </>
+  );
 }
 
 export default App;
